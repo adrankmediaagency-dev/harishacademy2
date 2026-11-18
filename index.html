@@ -1,90 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HARISH ACADEMY</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Harish Trading Academy – Preview</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0b0d12;--card:#151922;--text:#f2f2f2;--muted:#9aa3b2;--gold:#f5c542;--tg:#229ed9;--border:#252b38;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){color-scheme:dark}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:'Poppins',system-ui,sans-serif;display:flex;justify-content:center}
+.container{width:100%;max-width:440px;padding:32px 20px;text-align:center}
+.profile{width:120px;height:120px;border-radius:50%;margin:0 auto 18px;border:3px solid var(--gold);background:linear-gradient(135deg,#2a2f3d,#14171f);display:flex;align-items:center;justify-content:center;font-size:12px;color:var(--muted)}
+h1{font-size:22px;font-weight:800;color:var(--gold);margin:0 0 8px}
+h2{font-size:14px;font-weight:600;letter-spacing:1px;margin:0 0 14px}
+.description{color:var(--muted);font-size:14px;line-height:1.6;margin:0 0 22px}
+.telegram-btn{display:block;background:var(--tg);color:#fff;text-decoration:none;font-weight:700;padding:15px;border-radius:12px;font-size:15px}
+.features{margin:22px 0;display:flex;flex-direction:column;gap:12px}
+.feature-card{display:flex;align-items:center;gap:12px;background:var(--card);border:1px solid var(--border);border-radius:12px;padding:14px;text-align:left}
+.feature-icon{width:38px;height:38px;border-radius:10px;background:#222838;color:var(--gold);display:flex;align-items:center;justify-content:center;font-size:18px;flex:none}
+.feature-text{flex:1}
+.feature-text h3{margin:0 0 2px;font-size:14px}
+.feature-text p{margin:0;font-size:12px;color:var(--muted)}
+.check{color:var(--gold);font-weight:700}
+.disclaimer{font-size:11px;color:var(--muted);margin:20px 0 10px;line-height:1.5}
+.agency-credit a{font-size:11px;color:var(--muted);text-decoration:none}
+</style>
 </head>
-
 <body>
-
-    <main class="container">
-
-        <div class="profile">
-            <img src="profile.jpg" alt="Harish Academy Profile">
-        </div>
-
-        <h1>👑 HARISH ACADEMY 👑</h1>
-
-        <h2>NIFTY · BANKNIFTY · SENSEX</h2>
-
-        <p class="description">
-            Clear market insights. Timely updates.<br>
-            One focused trading community
-        </p>
-
-        <a href="https://telegram.me/+U3HobJCqwnA1NmI1"
-           target="_blank"
-           rel="noopener noreferrer"
-           class="telegram-btn">
-            <span>➤</span> JOIN TELEGRAM CHANNEL
-        </a>
-
-        <section class="features">
-
-            <div class="feature-card">
-                <div class="feature-icon">↗</div>
-                <div class="feature-text">
-                    <h3>Daily Market Insights</h3>
-                    <p>Actionable market updates shared consistently</p>
-                </div>
-                <div class="check">✓</div>
-            </div>
-
-            <div class="feature-card">
-                <div class="feature-icon">◎</div>
-                <div class="feature-text">
-                    <h3>Research-Based Analysis</h3>
-                    <p>Key levels and market observations with a clear view</p>
-                </div>
-                <div class="check">★</div>
-            </div>
-
-            <div class="feature-card">
-                <div class="feature-icon">♟</div>
-                <div class="feature-text">
-                    <h3>Market Experience</h3>
-                    <p>Perspective developed through different market cycles</p>
-                </div>
-                <div class="check">✓</div>
-            </div>
-
-        </section>
-
-        <a href="https://telegram.me/+U3HobJCqwnA1NmI1"
-           target="_blank"
-           rel="noopener noreferrer"
-           class="telegram-btn bottom-btn">
-            <span>➤</span> JOIN TELEGRAM CHANNEL
-        </a>
-
-        <p class="disclaimer">
-            Market information is provided for educational purposes only.
-            Please conduct your own research and consider your risk profile.
-        </p>
-
-        <p class="agency-credit">
-            <a href="https://telegram.me/adrankmedia"
-               target="_blank"
-               rel="noopener noreferrer">
-                Ads By AdRank Media ↗️
-            </a>
-        </p>
-
-    </main>
-
+<main class="container">
+  <div class="profile">profile photo</div>
+  <h1>👑 HARISH ACADEMY 👑</h1>
+  <h2>NIFTY · BANKNIFTY · SENSEX</h2>
+  <p class="description">Clear market insights. Timely updates.<br>One focused trading community</p>
+  <a class="telegram-btn" href="#">➤ JOIN TELEGRAM CHANNEL</a>
+  <section class="features">
+    <div class="feature-card"><div class="feature-icon">↗</div><div class="feature-text"><h3>Daily Market Insights</h3><p>Actionable market updates shared consistently</p></div><div class="check">✓</div></div>
+    <div class="feature-card"><div class="feature-icon">◎</div><div class="feature-text"><h3>Research-Based Analysis</h3><p>Key levels and market observations with a clear view</p></div><div class="check">★</div></div>
+    <div class="feature-card"><div class="feature-icon">♟</div><div class="feature-text"><h3>Market Experience</h3><p>Perspective developed through different market cycles</p></div><div class="check">✓</div></div>
+  </section>
+  <a class="telegram-btn" href="#">➤ JOIN TELEGRAM CHANNEL</a>
+  <p class="disclaimer">Market information is provided for educational purposes only. Please conduct your own research and consider your risk profile.</p>
+  <p class="agency-credit"><a href="#">Ads By AdRank Media ↗️</a></p>
+</main>
 </body>
 </html>
